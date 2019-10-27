@@ -40,3 +40,11 @@ terão 3 parametros para velocidade
 * hash é gerado na hora do 0
 * hash não é usado então toda verificação é feita do 0
 
+## considerações
+
+* o cache pode ser otimizado, algumas melhorias possiveis: 
+salvar o cache já em json, para uma ligibildiade de c[odigo
+salvar o cache em um banco de dados, caso o arquivo cresca muito(talvez redis ou mongo)
+* o crescimento númerico é mais rapido que o crescimento de seus quadrados, ex: 9999 = 9²+9²+9²+9²=9²*2= 324, e o 324< 9999 logo já estaria em cache sua arvore, o que significa que na segunda interação já teriamos a resposta, tornando o(1), o ponto critico aaprece razoavelmente cedo, algo como ~ 55
+
+
