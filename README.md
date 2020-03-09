@@ -45,6 +45,6 @@ terão 3 parametros para velocidade
 * o cache pode ser otimizado, algumas melhorias possiveis: 
 salvar o cache já em json, para uma ligibilidade de código
 salvar o cache em um banco de dados, caso o arquivo cresca muito(talvez redis ou mongo)
-* o crescimento númerico é mais rapido que o crescimento de seus quadrados, ex: 9999 = 9²+9²+9²+9²=9²*2= 324, e o 324< 9999 logo já estaria em cache sua arvore, o que significa que na segunda interação já teriamos a resposta, tornando o(1), o ponto critico aaprece razoavelmente cedo, algo como ~ 55
+* o crescimento númerico é mais rapido que o crescimento de seus quadrados, ex: 9999 = 9²+9²+9²+9²=9²*2= 324, e o 324< 9999 logo já estaria em cache sua arvore, o que significa que na segunda interação já teriamos a resposta, tornando o(1), o ponto critico aparece razoavelmente cedo, algo como ~ 55
 
 
