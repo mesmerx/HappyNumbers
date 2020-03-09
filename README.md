@@ -9,7 +9,7 @@ o pretexto desse código é verificar de forma eficiente o tipo do número
 <summary>
 <font size=5><b>complexidade</b></font>
 </summary>
-fazer a sequencia para verificação se o número é feliz é altamente custozo, considerando k rotações de números
+fazer a sequencia para verificação se o número é feliz é altamente custoso, considerando k rotações de números
 e considerenado o número k de ciclos com possivel recorrencia infinita
 temos :
 
